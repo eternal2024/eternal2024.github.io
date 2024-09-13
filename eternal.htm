@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternal Coin - Cómo Vender Criptomonedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #282c34;
+    color: #61dafb;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Estilos de navegación */
+nav {
+    background-color: #20232a;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #61dafb;
+    color: #20232a;
+    border-radius: 5px;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Estilos de las secciones */
+.section {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.section:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #282c34;
+}
+
+/* Estilos del formulario de venta */
+.sell-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.sell-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.sell-form input,
+.sell-form select {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.sell-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.sell-form button:hover {
+    background-color: #21a1f1;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #282c34;
+    color: #61dafb;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.2);
+}</style>
+<body>
+    <header>
+        <h1>Eternal Coin</h1>
+        <p>Compra, Venta y Gestión de Criptomonedas</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#sell">Cómo Vender</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Bienvenido a Eternal Coin</h2>
+            <p>Explora nuestras soluciones para vender criptomonedas de manera rápida y segura.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Servicios</h2>
+            <ul>
+                <li><strong>Compra de Criptomonedas:</strong> Compra las principales criptomonedas con facilidad y seguridad.</li>
+                <li><strong>Venta de Criptomonedas:</strong> Vende tus activos digitales de manera rápida y sin complicaciones.</li>
+                <li><strong>Gestión de Activos:</strong> Herramientas y asesoramiento para gestionar tus inversiones en criptomonedas.</li>
+                <li><strong>Soporte Técnico:</strong> Asistencia dedicada para resolver cualquier duda o problema que puedas tener.</li>
+            </ul>
+        </section>
+        <section id="sell" class="section">
+            <h2>Cómo Vender Criptomonedas</h2>
+            <p>Sigue estos sencillos pasos para vender tus criptomonedas:</p>
+            <ol>
+                <li><strong>Inicia sesión:</strong> Accede a tu cuenta en Eternal Coin.</li>
+                <li><strong>Selecciona la criptomoneda:</strong> Elige la criptomoneda que deseas vender.</li>
+                <li><strong>Ingresa la cantidad:</strong> Especifica la cantidad que quieres vender.</li>
+                <li><strong>Confirma la transacción:</strong> Revisa los detalles y confirma la venta.</li>
+                <li><strong>Recibe tu pago:</strong> El pago será procesado y enviado a tu cuenta.</li>
+            </ol>
+            <h3>Formulario de Venta</h3>
+            <form class="sell-form">
+                <label for="crypto-type">Tipo de Criptomoneda:</label>
+                <select id="crypto-type" name="crypto-type">
+                    <option value="bitcoin">Bitcoin (BTC)</option>
+                    <option value="ethereum">Ethereum (ETH)</option>
+                    <option value="litecoin">Litecoin (LTC)</option>
+                </select>
+                <label for="amount">Cantidad a Vender:</label>
+                <input type="number" id="amount" name="amount" step="0.01" placeholder="Cantidad" required>
+                <button type="submit">Vender</button>
+            </form>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o necesitas asistencia? No dudes en ponerte en contacto con nosotros a través de los siguientes medios:</p>
+            <p><strong>Email:</strong> contacto@eternalcoin.com</p>
+            <p><strong>Teléfono:</strong> +57 315 6747215</p>
+            <p><strong>Dirección:</strong> Av. Boyacá #80-94, Bogotá </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Eternal Coin. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
